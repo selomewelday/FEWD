@@ -1,0 +1,23 @@
+body{
+	background-color: white;
+	border-top: solid 10px black;
+	border-bottom: solid 10px black;
+	padding: 60px;
+	margin: 60px;
+}
+
+header{
+	text-align: center;
+	font-family: helvetica;
+}
+nav {
+	font-color: black;
+	text-decoration: underline;
+	text-decoration: italic;
+	font-size: 20px;
+}
+h1{
+	text-decoration: capital;
+	font-size: 40px;
+
+}
