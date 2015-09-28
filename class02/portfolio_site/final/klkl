@@ -1,0 +1,12 @@
+	<style>
+			body {
+				text-align: center;
+				background: white;
+				color: black;
+				font-family: Helvetica;
+				font-weight
+				}
+			p { 
+				font-size: 12;
+				}
+				<link rel="stylesheet" href=style.css">

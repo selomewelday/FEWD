@@ -1,0 +1,75 @@
+body{
+	background-color: white;
+	border-top: solid 5px black;
+	padding: 100px;
+	margin: 60px;
+	font-size: 25px;
+	margin-top: 15px;
+	font-family: times;
+}
+
+header{
+	text-align: center;
+	font-family: times;
+}
+
+p{
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+h2{
+	font-size: 22px;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-family: arial;
+
+}
+
+a{
+	color: #000;
+}
+nav {
+	margin-top: -50px;
+	font-color: #000;
+	font-style: ;
+	font-size: 16px;
+	font-weight: bold;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-top: 6px;
+	margin-bottom: 30px;
+	text-align: ;
+}
+h3{
+	text-transform: uppercase;
+	font-size: 16px;
+}
+ul{
+	font-size: 12px														;
+}
+	.web_developer{
+		font-size: 14px;
+		font-weight: bold;
+		font-style: italic;
+	}
+	.relaxr_2015{
+		font-size: 14px;
+	}
+	.developed_a{
+		font-size: 14px;
+		padding-left: 20px;
+	}
+br{
+	padding-right: 10px;
+}
+img{ 
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid black 1px;
+	padding: 5px;
+	width: 22em;
+	}
