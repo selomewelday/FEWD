@@ -21,7 +21,7 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 ###Real-World Applications
 
 
-- Build a website from a [design file](starter_code/design_file)
+- Build a website from a [design file](starter_code/design_file.md)
 - Integrate advanced CSS properties
 - Use HTML5 structural elements
 - Use CSS Resets to "normalize" the rendering of your page across different browsers
@@ -56,7 +56,7 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 - [Box Model Breakdown](http://learn.shayhowe.com/html-css/opening-the-box-model/)
 - [CSS Tricks difference between IDs and Classes](https://css-tricks.com/the-difference-between-id-and-class/)
 - [What is a CSS Reset?](http://www.cssreset.com/what-is-a-css-reset/)
-- Relaxr's [design file](starter_code/design_file)
+- Relaxr's [design file](starter_code/design_file.md)
 
 
 
