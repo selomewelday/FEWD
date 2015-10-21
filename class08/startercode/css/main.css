@@ -203,18 +203,7 @@ footer {
 	nav{
 		display:none;
 	}
-	.blurb{
-		width: 60%;
-		float:none;
-	}
-	.tout{
-		width:100%;
-		float:none;
-		box-shadow: none;
-	}
-
 	/*utility*/
-
 	.desktop-only{
 		display:none;
 	}
@@ -258,7 +247,7 @@ footer {
 	  top: 16px;
 	}
 
-
+}
 
 
 
