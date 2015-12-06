@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect way to rent luxary properties. Rent Luxary offers advanced filerting propositions to find you a specific tailored for you the perfect property for your luxary traveling needs.">
+
+		<title>Rent Luxary</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="http://code.jquery.com/ui/1.9.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<div class="branding"> 
+				<div class="container">
+					<div class="logo-wrapper"> 
+						<div class="logo">
+							<p><span class="rent">Rent</span><span class="luxary">Luxary</span></P>
+						</div>
+					</div>
+					<div class="mobile-navigation"> 
+							<!--//**<form>
+							<input type="text" id="city-type" placeholder="Enter a city name...">
+							<input type="submit" value="Update" id="submit-btn">
+							</form>//-->
+						<div id="hamburger">
+					  		<span></span>
+					  		<span></span>
+					  		<span></span>
+						</div> 					
+					</div>
+					<nav class="primary-navigation">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="properties.html">Properties</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!--<div class="search">
+				<div class="container">
+					<form><input type="text" id="city-type" placeholder="Enter a city name...">
+					<input type="submit" value="Search" id="submit-btn"></form>
+				</div>
+			</div>-->
+		</header>
+		<section class="filter-section">
+			<div class="container">
+				<form>
+					<div class="cities-dropdown">
+						<select class="form-select" name="Cities">
+							<option value="select">Select a City</option>
+							<option value="ny">NEWYORK</option>
+							<option value="mia">MIAMI</option>
+							<option value="dub">DUBAI</option>
+							<option value="sa">SOUTH AFRICA</option>
+							<option value="sd">SANDIEGO</option>
+	                    </select>
+					</div>
+					<div class="date">
+						<input type="text" class="check-in-date jquery-date-picker" placeholder="Check in date">
+						<input type="text" class="check-out-date jquery-date-picker" placeholder="Check out date">
+					</div>
+					<div class="guests">
+						<input type="text" class="city-type" placeholder="Number of Guests">
+					</div>
+					<div class="children">
+						<input type="text" class="city-type" placeholder="Children">
+					</div>
+					<div class="search">
+						<input type="submit" value="Book Now" id="submit-btn">
+					</div>
+				</form>
+			</div>
+			<div class="filter-wrapper">
+				<div class="container">
+					<div class="filter-icon">
+						<form>"Advanced Search">
+						<input type="submit" value="Styles" id="submit-btn"></input></form> 
+					</div>
+					<div class="filter-context">
+						<ul>
+							<li>Modern
+							<div class="roundedTwo">
+								<input type="checkbox" value="None" id="roundedTwo" name="check" /></div>
+							</li>
+							<li>Spanish Colonial	<div class="roundedTwo">
+								<input type="checkbox" value="None" id="roundedTwo" name="check" /></div></li>
+							<li>Colonial	<div class="roundedTwo">
+								<input type="checkbox" value="None" id="roundedTwo" name="check" /></div></li>
+							<li>Ranch	<div class="roundedTwo">
+								<input type="checkbox" value="None" id="roundedTwo" name="check" /></div></li>
+							<li>Medevil	<div class="roundedTwo">
+								<input type="checkbox" value="None" id="roundedTwo" name="check" /></div></li>
+							<li>Entire House	<div class="roundedTwo">
+								<input type="checkbox" value="None" id="roundedTwo" name="check" /></div></li>
+							<li>Apartments	<div class="roundedTwo">
+								<input type="checkbox" value="None" id="roundedTwo" name="check" /></div></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="cities-section">
+			<h2>Featured Cities</h2>
+			<div class="listing1-newyork">
+				<img src="images/1819.jpg" alt="newyork-house"/>
+				<div class="cities-container">
+					<h3>Newyork</h3>
+					<p>Newyork is this Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+
+					<p class="readmore"><a>Read more &gt;</a></p>
+					<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a.</p>
+					<p class="readless hide"><a>Read less &gt;</a></p>
+
+					<p class="seelisting">
+					<a href="properties.html"> See Listing </a></p>
+				</div>
+			</div>
+
+			<div class="listing2-greece">
+				<img src="images/1842.jpg" alt="newyork-house">
+				<div class="cities-container">
+					<h3>Greece</h3>
+					<p>Greece is this Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+					<p class="readmore">
+						<a>Read more &gt;</a>
+					</p>
+					<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a.</p>
+					<p class="readless hide">
+						<a>Read less &gt;</a>
+					</p>
+					<p class="seelisting">
+						<a href="properties.html"> See Listing </a>
+					</p>
+				</div>
+			</div>
+			<div class="listing3-dubai">
+				<img src="images/1847.jpg" alt="newyork-house">
+				<div class="cities-container">
+					<h3>Dubai</h3>
+					<p>Dubai is this Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+					<p class="readmore">
+						<a>Read more &gt;</a>
+					</p>
+					<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a.</p>
+					<p class="readless hide">
+						<a>Read less &gt;</a>
+					</p>
+					<p class="seelisting">
+						<a href="properties.html"> See Listing </a>
+					</p>
+				</div>
+			</div>
+			<div style="clear:both"></div>	
+			<div class="listing1-newyork">
+				<img src="images/1819.jpg" alt="newyork-house"/>
+				<div class="cities-container">
+					<h3>Newyork</h3>
+					<p>Newyork is this Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+
+					<p class="readmore"><a>Read more &gt;</a></p>
+					<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a.</p>
+					<p class="readless hide"><a>Read less &gt;</a></p>
+
+					<p class="seelisting">
+					<a href="properties.html"> See Listing </a></p>
+				</div>
+			</div>
+
+			<div class="listing2-greece">
+				<img src="images/1842.jpg" alt="newyork-house">
+				<div class="cities-container">
+					<h3>Greece</h3>
+					<p>Greece is this Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+					<p class="readmore">
+						<a>Read more &gt;</a>
+					</p>
+					<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a.</p>
+					<p class="readless hide">
+						<a>Read less &gt;</a>
+					</p>
+					<p class="seelisting">
+						<a href="properties.html"> See Listing </a>
+					</p>
+				</div>
+			</div>
+			<div class="listing3-dubai">
+				<img src="images/1847.jpg" alt="newyork-house">
+				<div class="cities-container">
+					<h3>Dubai</h3>
+					<p>Dubai is this Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+					<p class="readmore">
+						<a>Read more &gt;</a>
+					</p>
+					<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a.</p>
+					<p class="readless hide">
+						<a>Read less &gt;</a>
+					</p>
+					<p class="seelisting">
+						<a href="properties.html"> See Listing </a>
+					</p>
+				</div>
+			</div>
+			<div style="clear:both"></div>	
+		</section>
+
+		<div class="container-subscription-footer">		
+			<section class="subscription-section">
+				<div class="container">
+					<div class="email-logo-wrapper">
+						<img src=""/>
+					</div>
+					<a href="#"><img class="email-img" src="images/email.png" alt="email icon">
+					<p>Stay in touch, sign up for updates, subscribe</p>
+				</div>
+			</section>
+			<footer>
+				<div class="logo">
+					<p><span class="rent">Rent</span><span class="luxary">Luxary</span></P>
+				</div>
+					<ul>
+						<li><a href="#"><img class="twitter-img" src="images/twitter.png" alt="Twitter logo"></a></li>
+						<li><a href="#"><img class="facebook-img" src="images/facebook.png" alt="Facebook logo"></a></li>
+					</ul>
+				<p class="copyright">Copyright 2015. RENTLuxary.</p>
+			</footer>
+		</div>	
+
+		<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>		
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>
